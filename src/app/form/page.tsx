@@ -5,6 +5,7 @@ import { useEffect } from "react";
 export default function Home() {
   useEffect(() => {
     if (typeof window !== undefined) {
+      //@ts-ignore
       window.renderFlycore?.();
     }
   }, [])
