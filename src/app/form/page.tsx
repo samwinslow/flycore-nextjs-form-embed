@@ -5,7 +5,7 @@ import { useEffect } from "react";
 export default function Home() {
   useEffect(() => {
     if (typeof window !== undefined) {
-      //@ts-ignore
+      //@ts-expect-error - renderFlycore is loaded by next/script
       window.renderFlycore?.();
     }
   }, [])
