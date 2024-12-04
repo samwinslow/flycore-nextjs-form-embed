@@ -10,7 +10,7 @@ export default function Home() {
   }, [])
   return (
     <div>
-      <Script src="http://localhost:3000/custom_forms/formbuilder_spa.js" />
+      <Script src="https://app.getflycore.com/custom_forms/formbuilder_spa.js" />
       <div id="flycore-custom-form" data-key-id="cm1rr8ph40001nht70e8gtwiq"></div>
     </div>
   );
